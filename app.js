@@ -34,9 +34,9 @@ const ItemCtrl = (function() {
 
 //UI Controller
 const UICtrl = (function() {
-    const UISelectors = {
-        itemList = '#item-list'
-    }
+  const UISelectors = {
+    itemList: "#item-list"
+  };
   return {
     populateItemList: function(items) {
       let html = "";
